@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+
+# Virtual environments and local env files
+.venv/
+venv/
+env/
+*.env
+
+# Test / tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training outputs, logs, and checkpoints
+runs/
+logs/
+outputs/
+checkpoints/
+wandb/
+*.log
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+
+# Local datasets
+data/
+datasets/
+coco/
+imagenet/
+ILSVRC/
